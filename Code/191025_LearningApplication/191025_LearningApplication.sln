@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LearningApp", "LearningApp", "{BA7D6C3B-4603-646B-3616-6610A8E52FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningApp.Data", "LearningApp\LearningApp.Data\LearningApp.Data.csproj", "{A418976C-ECF5-59C0-47C7-8042537DF360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningApp", "LearningApp\LearningApp.UI\LearningApp.csproj", "{5016597C-3D15-6157-299B-777BD9F42662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A418976C-ECF5-59C0-47C7-8042537DF360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A418976C-ECF5-59C0-47C7-8042537DF360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A418976C-ECF5-59C0-47C7-8042537DF360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A418976C-ECF5-59C0-47C7-8042537DF360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5016597C-3D15-6157-299B-777BD9F42662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5016597C-3D15-6157-299B-777BD9F42662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5016597C-3D15-6157-299B-777BD9F42662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5016597C-3D15-6157-299B-777BD9F42662}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A418976C-ECF5-59C0-47C7-8042537DF360} = {BA7D6C3B-4603-646B-3616-6610A8E52FBF}
+		{5016597C-3D15-6157-299B-777BD9F42662} = {BA7D6C3B-4603-646B-3616-6610A8E52FBF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27A7C3C5-C209-40DB-BA44-1D601477F597}
+	EndGlobalSection
+EndGlobal
